@@ -1,0 +1,129 @@
+111 objects of class Obj
+
+28 objects of class Term
+
+28 objects of class Primary
+
+27 objects of class Val
+
+19 objects of class Id
+
+15 objects of class E
+
+15 objects of class SinglePrimary
+
+14 objects of class FloatVal
+
+13 objects of class AssignmentList
+
+13 objects of class IntVal
+
+8 objects of class SingleTerm
+
+7 objects of class Assignment
+
+7 objects of class MulTerm
+
+6 objects of class DivTerm
+
+6 objects of class MultipleAssignment
+
+5 objects of class Int
+
+4 objects of class AddE
+
+3 objects of class SubE
+
+3 objects of class Floatp
+
+1 objects of class Parenthesized
+
+--------------------------------------------------------
+Test Run #1: 
+
+MultipleAssignment
+Assignment
+SingleTerm
+SinglePrimary
+Int : 1
+MultipleAssignment
+Assignment
+SingleTerm
+SinglePrimary
+Int : 2
+MultipleAssignment
+Assignment
+AddE
+MulTerm
+Id : x2
+SinglePrimary
+Id : x1
+SingleTerm
+SinglePrimary
+Floatp : 5.5
+MultipleAssignment
+Assignment
+SubE
+DivTerm
+Int : 4
+SinglePrimary
+Id : x3
+AddE
+SinglePrimary
+Floatp : 0.74
+SingleTerm
+SinglePrimary
+Int : 5
+MultipleAssignment
+Assignment
+SubE
+MulTerm
+Parenthesized
+SubE
+SinglePrimary
+Id : x1
+SingleTerm
+SinglePrimary
+Id : x2
+SinglePrimary
+Id : x3
+SingleTerm
+SinglePrimary
+Floatp : 12.0
+MultipleAssignment
+Assignment
+AddE
+SinglePrimary
+Int : 6
+SingleTerm
+SinglePrimary
+Id : x3
+Assignment
+AddE
+MulTerm
+Id : x1
+MulTerm
+Id : x2
+MulTerm
+Id : x3
+MulTerm
+Id : x4
+MulTerm
+Id : x5
+SinglePrimary
+Id : x6
+SingleTerm
+DivTerm
+Id : x1
+DivTerm
+Id : x2
+DivTerm
+Id : x3
+DivTerm
+Id : x4
+DivTerm
+Id : x5
+SinglePrimary
+Id : x6
+Total of 84 Obj objects have been visited
+

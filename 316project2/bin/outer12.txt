@@ -1,0 +1,16 @@
+152 objects of Class Obj 
+57 objects of class Primary
+57 objects of class Term
+40 objects of class Id
+37 objects of class E
+37 objects of class SinglePrimary
+15 objects of class AddE
+11 objects of class DivTerm
+11 objects of class SingleTerm
+11 objects of class SubE
+10 objects of class Parenthesized
+9 objects of class MulTerm
+5 objects of class Floatp
+2 objects of class Int
+1 objects of class Assignment
+1 objects of class AssignmentList

@@ -1,0 +1,7 @@
+0 <assignment>
+ 1 A
+ 1 =
+ 1 <E>
+  2 <term>
+   3 <primary>
+    4 1

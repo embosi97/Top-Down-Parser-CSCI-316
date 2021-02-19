@@ -1,0 +1,27 @@
+This project is an extension of project 1. I went back and modified my setArg2 function, due to the fact I had previously hard-coded the part where the class name and frequencies were put into the HashMap. That function is not only more efficient but also shorter.
+
+Another step was to import/add the professor's Interpreter.java class, as well as update Parser.java and the classes that are under Primary.java, which I did. 
+
+traverse(), located in Obj.java, basically creates 2 arrays of declared fields, one for this (current) object and another for its superclasses. The .get() gets the reference objects, as I iterate through the 2 field arrays (2 for loops).
+
+traverse() checks ((((Obj) current).visited == false) whether or not the current object has been visited or not and sets it to visited (true) if it goes through that conditional, so nothing is revisited during the recursion process.
+
+I have another conditional in traverse() which determines whether objects are instances of Int, Id, or Floatp, which would be added to an ArrayList (Graph) and a StringBuilder (both for printing purposes) using Primary's descendant classes' new toString() methods, if true. 
+
+Prior to recursion call (in both loops), I check if the reference object is an instance of Obj, if so, go through with recursion. 
+
+If my ArrayList is empty (checks ArrayList's size), traverse() calls the updated setArg2. Everything in the StringBuilder (contents of setArg2 and traverse()) is then printed to the console and written onto a text file (args[2]) using my graphUpdate function.
+
+Output is identical for Interpreter.java and partially so for Parser.java.
+
+I used absolute path for the args.
+ 
+assignmentList.traverse();, ((MultipleAssignment) assignmentList).assignment.traverse();, and ((MultipleAssignment) assignmentList).assignmentlist.traverse();
+ALL output correctly, if I run them individually. I can run them together but only the first traverse()'s output will be correct. 
+
+I couldn't figure out why reinitializing assignmentList() didn't work. 
+
+Thank you. 
+
+
+

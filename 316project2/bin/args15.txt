@@ -1,0 +1,13 @@
+104 objects of Class Obj 
+30 objects of class Primary
+30 objects of class Term
+23 objects of class AssignmentList
+21 objects of class E
+21 objects of class SinglePrimary
+20 objects of class Id
+12 objects of class Assignment
+12 objects of class SingleTerm
+11 objects of class MultipleAssignment
+10 objects of class Int
+9 objects of class MulTerm
+9 objects of class AddE
